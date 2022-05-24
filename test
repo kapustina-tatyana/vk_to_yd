@@ -1,0 +1,12 @@
+path = f'/{self.folder_name}/{str(likes)}.jpg'
+url = f'{self.HOST}/v1/disk/resources/upload/'
+headers = self.get_headers()
+params = {'path': path, 'url': link}
+response = requests.post(url=url, headers=headers, params=params)
+
+
+
+url = f'{self.HOST}/v1/disk/resources/upload/'
+
+pip freeze - - > requirement.txt  просто pip freeze и копирую нужные
+в папке проекта, а потом в гит пушишь вместе с проектом
